@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  File.read(hello.txt)
+  open("public/hello.txt","r")
 end
 
 # get '/blah' do
