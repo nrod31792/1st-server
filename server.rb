@@ -1,6 +1,6 @@
 require 'sinatra'
 
-get '//' do
+get '/' do
   File.read(hello.txt)
 end
 
