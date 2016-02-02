@@ -1,17 +1,9 @@
 require 'sinatra'
-require 'hello.txt'
 
-get '//' do
-  puts File.read(hello.txt)
-end
-
+get '/' do
+  "Hello World"
 end
 
 get '/blah' do
   "Hello World"
-end
-
-get '//' do
-
-
 end
