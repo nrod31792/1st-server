@@ -8,6 +8,6 @@ require 'sinatra'
 #   "Hello World"
 # end
 
-get '//' do
+get '/' do
   File.read(hello.txt)
 end
